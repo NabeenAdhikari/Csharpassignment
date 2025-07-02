@@ -1,30 +1,36 @@
-using System;
-
-class Arithmetic
+namespace MyApp
 {
-    static void Main()
+    public static class Arithmetic
     {
-        int num1, num2;
-
-        Console.Write("Enter first integer: ");
-        num1 = Convert.ToInt32(Console.ReadLine());
-
-        Console.Write("Enter second integer: ");
-        num2 = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Results:");
-        Console.WriteLine("Addition: " + (num1 + num2));
-        Console.WriteLine("Subtraction: " + (num1 - num2));
-        Console.WriteLine("Multiplication: " + (num1 * num2));
-
-        if (num2 != 0)
+        public static int Add(int a, int b)
         {
-            Console.WriteLine("Division: " + ((float)num1 / num2));
-            Console.WriteLine("Modulus: " + (num1 % num2));
+            return a + b;
         }
-        else
+
+        public static int Subtract(int a, int b)
         {
-            Console.WriteLine("Division and modulus by zero are not allowed.");
+            return a - b;
+        }
+
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+
+        public static double Divide(int a, int b)
+        {
+            if (b == 0)
+                return 0; // or you can return double.NaN;
+            return (double)a / b;
+        }
+
+        public static int Modulus(int a, int b)
+        {
+            if (b == 0)
+                return 0; // or return -1 as a custom error code
+            return a % b;
         }
     }
 }
+
+
