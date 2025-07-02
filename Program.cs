@@ -32,6 +32,9 @@ class Program
 
         Vote xyz = new Vote();
         xyz.Vots();
+
+        Comparison comparison = new Comparison();
+        comparison.Com();
     }
 }
 
