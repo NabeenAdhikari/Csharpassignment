@@ -29,5 +29,10 @@ class Program
 
         Console.WriteLine("Area: " + Area.Areas(length, breadth));
         Console.WriteLine("Perimeter: " + Area.Perimeter(length, breadth));
+
+        Vote xyz = new Vote();
+        xyz.Vots();
     }
 }
+
+
