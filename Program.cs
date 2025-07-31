@@ -6,6 +6,7 @@ class Program
     static void Main()
     {
         // --- Arithmetic Operations ---
+        /*
         Console.WriteLine("=== Arithmetic Operations ===");
         Console.Write("Enter first number: ");
         int a = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +36,13 @@ class Program
 
         Comparison comparison = new Comparison();
         comparison.Com();
+        Admin admin = new Admin();
+        admin.Input();
+
+        Admin cc = new Admin();
+        cc.Input();*/
+        Grade xy = new Grade();
+        xy.Grades();
     }
 }
 
