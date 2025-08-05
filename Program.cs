@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        // --- Arithmetic Operations ---
+
         /*
         Console.WriteLine("=== Arithmetic Operations ===");
         Console.Write("Enter first number: ");
@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("Division: " + Arithmetic.Divide(a, b));
         Console.WriteLine("Modulus: " + Arithmetic.Modulus(a, b));
 
-        // --- Area of Rectangle ---
+        
         Console.WriteLine("\n=== Area and Perimeter of Rectangle ===");
         Console.Write("Enter length: ");
         int length = Convert.ToInt32(Console.ReadLine());
@@ -40,9 +40,11 @@ class Program
         admin.Input();
 
         Admin cc = new Admin();
-        cc.Input();*/
+        cc.Input();
         Grade xy = new Grade();
-        xy.Grades();
+        xy.Grades();*/
+        Calculator ab = new Calculator();
+        ab.Calc();
     }
 }
 
