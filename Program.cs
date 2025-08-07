@@ -42,9 +42,11 @@ class Program
         Admin cc = new Admin();
         cc.Input();
         Grade xy = new Grade();
-        xy.Grades();*/
+        xy.Grades();
         Calculator ab = new Calculator();
-        ab.Calc();
+        ab.Calc();*/
+        Pattern xx = new Pattern();
+        xx.Pat();
     }
 }
 
