@@ -44,9 +44,14 @@ class Program
         Grade xy = new Grade();
         xy.Grades();
         Calculator ab = new Calculator();
-        ab.Calc();*/
+        ab.Calc();
         Pattern xx = new Pattern();
         xx.Pat();
+        Patterns xy = new Patterns();
+        xy.Patt();
+        Guess vv = new Guess();
+        vv.Gu();*/
+        
     }
 }
 
