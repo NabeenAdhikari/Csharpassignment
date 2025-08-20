@@ -51,6 +51,8 @@ class Program
         xy.Patt();
         Guess vv = new Guess();
         vv.Gu();*/
+        Binary ii = new Binary();
+        ii.Bin();
         
     }
 }
